@@ -6,7 +6,7 @@
 # Breakout: 6
 
 def sum_n(n):
-  if (n == 1):
+  if (n == 0):
     return 1
   else:
     return n + sum_n(n-1)
